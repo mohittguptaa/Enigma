@@ -40,7 +40,7 @@ export const ContextProvider = (props) => {
       response = await run(input)
     }
     
-    setInput(" ");
+    setInput("");
     
     
     let responseArray = response.split("**");
